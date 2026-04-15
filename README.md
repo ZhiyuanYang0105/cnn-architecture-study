@@ -101,6 +101,7 @@ This study shows that deeper CNN architectures significantly improve performance
 - ResNet achieves the best performance, demonstrating the effectiveness of residual connections in training deep networks  
 - Residual connections also lead to more stable and faster convergence  
 
+Training curves show that ResNet achieves faster convergence and more stable optimization compared to LeNet and AlexNet.
 Overall, model depth and architectural design play a critical role in representation learning and generalization performance.
 
 ## Future Work
