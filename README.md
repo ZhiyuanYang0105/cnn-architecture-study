@@ -82,6 +82,18 @@ LeNet features are highly overlapping, indicating weak representation learning. 
 
 This demonstrates that deeper architectures learn more discriminative representations, which explains their improved classification performance.
 
+## Robustness Analysis
+
+We evaluated model robustness under Gaussian noise with standard deviation 0.15.
+
+| Model | Clean Accuracy | Noisy Accuracy | Drop |
+|---|---:|---:|---:|
+| LeNet | 0.6047 | 0.6000 | 0.0047 |
+| AlexNet | 0.7773 | 0.7188 | 0.0585 |
+| ResNet | 0.8600 | 0.8042 | 0.0558 |
+
+The results show that all models degrade under noise, with AlexNet and ResNet exhibiting larger absolute drops due to their stronger reliance on learned feature structure.
+
 ## Conclusion
 This study shows that deeper CNN architectures significantly improve performance on CIFAR-10. 
 
