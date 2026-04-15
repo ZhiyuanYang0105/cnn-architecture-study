@@ -76,7 +76,11 @@ We visualize learned feature representations using PCA for different CNN archite
 ### ResNet
 ![ResNet PCA](figures/resnet_pca.png)
 
-The PCA plots show that deeper architectures produce more separable feature representations. ResNet features form clearer clusters, indicating better representation learning compared to shallow models.
+The PCA visualizations show that feature representations become progressively more separable from LeNet to AlexNet to ResNet. 
+
+LeNet features are highly overlapping, indicating weak representation learning. AlexNet shows partial separation, while ResNet produces the most structured and clearly separated clusters. 
+
+This demonstrates that deeper architectures learn more discriminative representations, which explains their improved classification performance.
 
 ## Conclusion
 This study shows that deeper CNN architectures significantly improve performance on CIFAR-10. 
