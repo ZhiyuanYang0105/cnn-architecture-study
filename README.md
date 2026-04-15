@@ -1,4 +1,4 @@
-# CNN Architecture Study: Representation and Robustness
+CNN Architecture Study: Representation Learning, Training Dynamics, and Robustness
 
 ## Overview
 This project presents a comparative study of three classical convolutional neural network (CNN) architectures: LeNet, AlexNet, and ResNet. The goal is to analyze how network depth and architectural design influence representation learning, training dynamics, and robustness.
@@ -36,13 +36,12 @@ This project focuses not only on model performance but also on understanding mod
 
 2. **Representation Learning**
    - Extract features from trained models
-   - Visualize using t-SNE / PCA
+   - Visualize using PCA
    - Compare separability of learned representations
 
 3. **Robustness Analysis**
    - Evaluate models under input perturbations:
      - Gaussian noise
-     - Blur
    - Compare performance degradation
 
 ## Expected Outcomes
