@@ -56,6 +56,22 @@ The codebase is organized for reproducible experiments:
 - Configurable experiment settings
 - Clear separation of models, training, and analysis
 
+## Results
+| Model | Test Accuracy | Best Validation Accuracy |
+|---|---:|---:|
+| LeNet | 0.6047 | 0.5752 |
+| AlexNet | 0.7773 | 0.7668 |
+| ResNet | 0.8600 | 0.8606 |
+
+## Conclusion
+This study shows that deeper CNN architectures significantly improve performance on CIFAR-10. 
+
+- AlexNet outperforms LeNet due to increased depth and model capacity  
+- ResNet achieves the best performance, demonstrating the effectiveness of residual connections in training deep networks  
+- Residual connections also lead to more stable and faster convergence  
+
+Overall, model depth and architectural design play a critical role in representation learning and generalization performance.
+
 ## Future Work
 - Extend to Transformer-based models (e.g., Vision Transformer)
 - Explore multimodal extensions (vision-language models)
