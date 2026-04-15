@@ -63,6 +63,21 @@ The codebase is organized for reproducible experiments:
 | AlexNet | 0.7773 | 0.7668 |
 | ResNet | 0.8600 | 0.8606 |
 
+## Representation Learning (PCA Visualization)
+
+We visualize learned feature representations using PCA for different CNN architectures:
+
+### LeNet
+![LeNet PCA](figures/lenet_pca.png)
+
+### AlexNet
+![AlexNet PCA](figures/alexnet_pca.png)
+
+### ResNet
+![ResNet PCA](figures/resnet_pca.png)
+
+The PCA plots show that deeper architectures produce more separable feature representations. ResNet features form clearer clusters, indicating better representation learning compared to shallow models.
+
 ## Conclusion
 This study shows that deeper CNN architectures significantly improve performance on CIFAR-10. 
 
